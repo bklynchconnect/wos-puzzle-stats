@@ -109,8 +109,8 @@ with center:
         y=labels,
         orient="h",
         ax=ax,
-        hue=labels,
-        palette='winter'
+        hue=cnts,
+        palette='rainbow'
     )
     ax.get_legend().remove()
     ax.set_xlabel("Count (%)")
